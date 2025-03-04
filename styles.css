@@ -1,0 +1,213 @@
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+  font-feature-settings: "liga" 1, "clig" 1;
+  font-variant-ligatures: common-ligatures discretionary-ligatures;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0b0e1b;
+}
+.container {
+  width: 80%;
+  max-width: 1400px;
+  margin-top: 30px;
+}
+.header {
+  padding: 25px 0;
+  border-bottom: 1px solid #9599af;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.logo-text {
+  margin: 0;
+  line-height: 1;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  color: #9599af;
+  font-size: 28px;
+  letter-spacing: -7%;
+}
+.header-link {
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #9599af;
+  text-decoration: none;
+  line-height: 1;
+}
+h1 {
+  letter-spacing: -7%;
+  font-family: "Playfair Display", serif;
+}
+a {
+  text-decoration: none;
+}
+.start-view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #9599af;
+  padding: 60px 0;
+}
+img {
+  border-radius: 3px;
+}
+.highlight {
+  height: 65vh;
+  width: 50%;
+  object-fit: cover;
+  box-shadow: 0px 0px 100px 10px rgba(83, 99, 197, 0.14);
+  -webkit-box-shadow: 0px 0px 100px 10px rgba(83, 99, 197, 0.14);
+  -moz-box-shadow: 0px 0px 100px 10px rgba(83, 99, 197, 0.14);
+}
+.start-left {
+  width: 40%;
+}
+.start-title {
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 20px 0;
+}
+.start-desc {
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+.pfp {
+  height: 120px;
+  width: auto;
+  border-radius: 200px;
+  box-shadow: 0px 0px 100px 10px #9b8f7524;
+  -webkit-box-shadow: 0px 0px 100px 10px #9b8f7524;
+  -moz-box-shadow: 0px 0px 100px 10px #9b8f7524;
+}
+.action-btn {
+  border: none;
+  background-color: #adb6ec;
+  border-radius: 100px;
+  padding: 7px 30px;
+  color: black;
+  font-size: 18px;
+  box-shadow: 0px 0px 100px 10px #adb6ec24;
+  -webkit-box-shadow: 0px 0px 100px 10px #adb6ec24;
+  -moz-box-shadow: 0px 0px 100px 10px #adb6ec24;
+}
+.blob {
+  width: 0px;
+  height: 0px;
+  position: relative;
+}
+.start-blob {
+  box-shadow: 0px 0px 50vw 150px #ff55c624;
+  -webkit-box-shadow: 0px 0px 50vw 150px #ff55c624;
+  -moz-box-shadow: 0px 0px 50vw 150px #ff55c624;
+  top: -30vh;
+  left: 0;
+}
+.enge-blob {
+  box-shadow: 0px 0px 50vw 150px #871fff34;
+  -webkit-box-shadow: 0px 0px 50vw 150px #871fff34;
+  -moz-box-shadow: 0px 0px 50vw 150px #871fff34;
+  top: -10vh;
+  left: 400px;
+}
+.eth-blob {
+  box-shadow: 0px 0px 80vw 100px #adbcff44;
+  -webkit-box-shadow: 0px 0px 80vw 100px #adbcff44;
+  -moz-box-shadow: 0px 0px 80vw 100px #adbcff44;
+  top: -10vh;
+  left: -150px;
+}
+.ebpi-blob {
+  box-shadow: 0px 0px 120vw 100px #4561ff24;
+  -webkit-box-shadow: 0px 0px 120vw 100px #4561ff24;
+  -moz-box-shadow: 0px 0px 120vw 100px #4561ff24;
+  left: 400px;
+}
+.tech-blob {
+  box-shadow: 0px 0px 120vw 130px #a9b6ff24;
+  -webkit-box-shadow: 0px 0px 120vw 130px #a9b6ff24;
+  -moz-box-shadow: 0px 0px 120vw 130px #a9b6ff24;
+  top: -5vh;
+  left: -120px;
+}
+.section {
+  padding: 60px 0;
+  width: 100%;
+}
+.section-title {
+  text-align: center;
+  color: #9599af;
+  font-size: 48px;
+  font-weight: 400;
+  text-shadow: 0px 4px 100px #9599af;
+  margin-bottom: 70px;
+}
+.edu-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.edu-img {
+  height: 300px;
+  width: 42%;
+  object-fit: cover;
+}
+.edu-text {
+  width: 42%;
+}
+.profession-text-left {
+  width: 62%;
+}
+.profession-text-right {
+  width: 30%;
+  text-align: right;
+}
+.right {
+  text-align: right;
+}
+.left {
+  text-align: left;
+}
+.school-title {
+  font-weight: 500;
+  margin: 0 0 10px 0;
+}
+.school-desc {
+  color: #9599af;
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0 0 20px 0;
+}
+.achievement {
+  font-size: 17px;
+}
+.right .achievement {
+  border-right: 1px solid #9599af;
+  padding-right: 10px;
+}
+.left .achievement {
+  border-left: 1px solid #9599af;
+  padding-left: 10px;
+}
+.exp-year {
+  font-size: 78px;
+  color: #292f4b;
+  font-family: "Playfair Display", serif;
+  line-height: 1;
+}
