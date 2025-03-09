@@ -145,6 +145,19 @@ img {
   top: -5vh;
   left: -20px;
 }
+.software-blob {
+  box-shadow: 0px 0px 120vw 100px #4561ff24;
+  -webkit-box-shadow: 0px 0px 120vw 100px #4561ff24;
+  -moz-box-shadow: 0px 0px 120vw 100px #4561ff24;
+  left: 400px;
+  top: -6vh;
+}
+.other-blob {
+  box-shadow: 0px 0px 120vw 100px #ff45f024;
+  -webkit-box-shadow: 0px 0px 120vw 100px #bb45ff24;
+  -moz-box-shadow: 0px 0px 120vw 100px #bb45ff24;
+  left: -100px;
+}
 .section {
   padding: 60px 0;
   width: 100%;
@@ -170,6 +183,14 @@ img {
   box-shadow: 0px 0px 100px 10px rgba(83, 99, 197, 0.14);
   -webkit-box-shadow: 0px 0px 100px 10px rgba(83, 99, 197, 0.14);
   -moz-box-shadow: 0px 0px 100px 10px rgba(83, 99, 197, 0.14);
+}
+.skill-img {
+  height: 200px;
+  width: auto;
+  object-fit: cover;
+  filter: drop-shadow(0px 0px 200px rgba(255, 239, 210, 0.95));
+  position: relative;
+  z-index: -1;
 }
 .edu-text {
   width: 42%;
@@ -256,4 +277,72 @@ img {
   justify-content: space-between;
   margin-top: 30px;
   margin-bottom: 100px;
+}
+.social-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  margin-top: -10px;
+}
+.social-flex a {
+  width: 150px;
+  margin: 8px;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+label {
+  display: block;
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  letter-spacing: -7%;
+  margin: 10px 0 20px 0;
+}
+input,
+textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #9599af;
+  width: 38vw;
+  min-width: 300px;
+  resize: vertical;
+  font-size: 17px;
+  padding: 5px 0;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #9599af;
+}
+textarea {
+  background-color: #adb6ec;
+  border: none;
+  border-radius: 20px 20px 0 20px;
+  padding: 20px;
+  color: black;
+  box-shadow: 0px 0px 100px 10px #adb6ec24;
+  -webkit-box-shadow: 0px 0px 100px 10px #adb6ec24;
+  -moz-box-shadow: 0px 0px 100px 10px #adb6ec24;
+}
+.send-form {
+  width: 38vw;
+  min-width: 300px;
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+.long-blob {
+  width: 100vw;
+  height: 0px;
+  position: absolute;
+  left: 0;
+  box-shadow: 0px 0px 180vw 100px #adb6ec24;
+  -webkit-box-shadow: 0px 0px 180vw 100px #adb6ec24;
+  -moz-box-shadow: 0px 0px 180vw 100px #adb6ec24;
 }

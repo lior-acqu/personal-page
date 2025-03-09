@@ -176,8 +176,7 @@
                     <p class="school-desc">React Native / Node.js / Express.js / MongoDB / Python / HTML / CSS / SASS / JavaScript</p>
                 </div>
                 <div class="profession-text-right">
-                    <p class="exp-year">2024</p>
-                    <div class="blob ebpi-blob"></div>
+                    <div class="blob software-blob"></div>
                 </div>
             </div>
             <div class="edu-flex">
@@ -186,20 +185,66 @@
                     <p class="school-desc">Adobe Illustrator & XD / Figma / LaTeX / Microsoft Office</p>
                 </div>
                 <div class="profession-text-right">
-                    <p class="exp-year">2023 - 2024</p>
+                    <img src="light-bulb.png" alt="light-bulb" class="skill-img">
                 </div>
             </div>
             <div class="edu-flex">
                 <div class="profession-text-left">
                     <h1 class="school-title">Languages</h1>
                     <p class="school-desc">German (native) / English (C2) / French (B2) / Polish (basics)</p>
-                    <div class="blob tech-blob"></div>
+                </div>
+            </div>
+            <div class="edu-flex">
+                <div class="profession-text-left">
+                    <h1 class="school-title">Interests</h1>
+                    <p class="school-desc">Engineering (Software & Electrical) / Writing / Literature / Classical Music / Badminton / Philosophy / Design</p>
                 </div>
                 <div class="profession-text-right">
-                    <p class="exp-year">2020 - 2024</p>
+                    <div class="blob other-blob"></div>
                 </div>
             </div>
         </div>
+        <div class="section" id="contact">
+            <h1 class="section-title">Contact</h1>
+            <div class="social-flex">
+                <a href="https://www.linkedin.com/in/liorporath/" class="action-btn">LinkedIn</a>
+                <a href="https://instagram.com/notesbylior" class="action-btn">Instagram</a>
+                <a href="https://github.com/lior-acqu" class="action-btn">GitHub</a>
+            </div>
+            <form method="post" action="email.php">
+                <div class="form-ipt">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="form-ipt">
+                    <label for="email">E-Mail</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-ipt">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" id="subject" required>
+                </div>
+                <div class="form-ipt">
+                    <label for="message">Message</label>
+                    <textarea rows="3" name="message" id="message" placeholder="Type your message here ..." required></textarea>
+                </div>
+        
+                <br>
+                <div class="send-form">
+                    <button class="action-btn" style="cursor: pointer;">Send Message</button>
+                </div>
+            </form>
+            <div class="long-blob"></div>
+        </div>
     </div>
+    <script>
+        const initialImageMargin = 0;
+        window.addEventListener("scroll", () => {
+        var scroll = window.scrollY - document.getElementById("skills").offsetTop;
+        var newPosition = initialImageMargin + scroll / 3; // change intensity of parallax
+        document.querySelector(".skill-img").style.top =
+            newPosition + "px";
+        });
+    </script>
 </body>
 </html>
