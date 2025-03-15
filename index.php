@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="assets/icon_gray.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content='Hi, I am Lior Porath! Feel free to get to know me on this page.'>
-    <title>Lior Porath</title>
+    <link rel="icon" type="image/x-icon" href="portrait.ico">
+    <title>Lior Porath | Home</title>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
@@ -132,9 +134,9 @@
                 <h1 class="project-title">Acquirable</h1>
                 <p class="project-desc">Lifelong learning is amazing! I believe that anyone can learn anything with the right guidance. Acquirable supports you on your journey of lifelong learning with fascinating articles. </p>
                 <div class="project-actions">
-                    <a href="https://acquirable.ch" class="action-btn">Explore Articles</a>
-                    <a href="https://instagram.com/notesbylior" class="action-btn">See on Instagram</a>
-                    <a href="/" class="action-btn">GitHub Repository</a>
+                    <a href="https://acquirable.ch" target="_blank" class="action-btn">Explore Articles</a>
+                    <a target="_blank" href="https://instagram.com/notesbylior" class="action-btn">See on Instagram</a>
+                    <a target="_blank" href="https://github.com/lior-acqu/acquirable" class="action-btn">GitHub Repository</a>
                 </div>
             </div>
             <div class="big-project">
@@ -142,8 +144,8 @@
                 <h1 class="project-title">Scalearn</h1>
                 <p class="project-desc">An award-winning full-stack academic performance application for mobile phones.</p>
                 <div class="project-actions">
-                    <a href="/" class="action-btn">View Project</a>
-                    <a href="/" class="action-btn">GitHub Repository</a>
+                    <a href="/scalearn" class="action-btn">View Project</a>
+                    <a target="_blank" href="https://github.com/lior-acqu/ma-app" class="action-btn">GitHub Repository</a>
                 </div>
             </div>
             <div class="project-flex">
@@ -152,7 +154,7 @@
                     <h1 class="project-title">Cute Encryption</h1>
                     <p class="project-desc">Cute Encryption is a simple encryption algorithm invented to easily and quickly encrypt and decrypt strings.</p>
                     <div class="project-actions">
-                        <a href="/" class="action-btn">GitHub Repository</a>
+                        <a target="_blank" href="https://github.com/lior-acqu/cute-encryption" class="action-btn">GitHub Repository</a>
                     </div>
                 </div>
                 <div class="small-project">
@@ -160,7 +162,7 @@
                     <h1 class="project-title">Scribe</h1>
                     <p class="project-desc">A website where learning how to type quickly becomes fun and easy. Test and improve your typing speed now!</p>
                     <div class="project-actions">
-                        <a href="/" class="action-btn">Try it Yourself</a>
+                        <a target="_blank" href="https://liorporath.ch/typewriter" class="action-btn">Try it Yourself</a>
                     </div>
                 </div>
             </div>
@@ -170,7 +172,7 @@
                     <h1 class="project-title">C2EX</h1>
                     <p class="project-desc">Would you like to improve your English vocabulary? With C2EX, you can look up unknown words instantly and load them into the learning platform Anki.</p>
                     <div class="project-actions">
-                        <a href="/" class="action-btn">GitHub Repository</a>
+                        <a target="_blank" href="https://github.com/lior-acqu/c2ex-extension" class="action-btn">GitHub Repository</a>
                     </div>
                 </div>
                 <div class="small-project">
@@ -178,7 +180,7 @@
                     <h1 class="project-title">Hablitude</h1>
                     <p class="project-desc">A fun reading habit tracker allowing you to track reading habits and share books with friends.</p>
                     <div class="project-actions">
-                        <a href="/" class="action-btn">View Project</a>
+                        <a href="/hablitude" class="action-btn">View Project</a>
                     </div>
                 </div>
             </div>
@@ -222,9 +224,9 @@
         <div class="section" id="contact">
             <h1 class="section-title">Contact</h1>
             <div class="social-flex">
-                <a href="https://www.linkedin.com/in/liorporath/" class="action-btn">LinkedIn</a>
-                <a href="https://instagram.com/notesbylior" class="action-btn">Instagram</a>
-                <a href="https://github.com/lior-acqu" class="action-btn">GitHub</a>
+                <a target="_blank" href="https://www.linkedin.com/in/liorporath/" class="action-btn">LinkedIn</a>
+                <a target="_blank" href="https://instagram.com/notesbylior" class="action-btn">Instagram</a>
+                <a target="_blank" href="https://github.com/lior-acqu" class="action-btn">GitHub</a>
             </div>
             <form method="post" action="email.php">
                 <div class="form-ipt">
@@ -243,7 +245,7 @@
                     <label for="message">Message</label>
                     <textarea style="color: #0b0e1b" rows="3" name="message" id="message" placeholder="Type your message here ..." required></textarea>
                 </div>
-        
+
                 <br>
                 <div class="send-form">
                     <button class="action-btn" style="cursor: pointer;">Send Message</button>
@@ -253,7 +255,8 @@
         </div>
     </div>
     <script src="index.js"></script>
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
